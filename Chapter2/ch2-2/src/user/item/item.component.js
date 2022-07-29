@@ -6,7 +6,7 @@ const ItemComponent = () => {
         <>
             <div>UserId : {user.userId}</div>
             <div>UserName: {user.userName}</div>
-            <div>UserEmail {user.userEmail}</div>
+            <div>UserEmail: {user.userEmail}</div>
         </>
     );
 }
