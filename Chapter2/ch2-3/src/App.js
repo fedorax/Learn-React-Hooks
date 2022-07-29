@@ -1,13 +1,10 @@
 import React from 'react';
 import './App.css';
-import UserProvider from './user/use.provider';
-import ItemComponent from './user/item/item.component';
+import UserComponent from './user/user.component';
 function App() {
   return (
     <div className="App">
-      <UserProvider>
-        <ItemComponent />
-      </UserProvider>
+      <UserComponent />
     </div>
   );
 }
